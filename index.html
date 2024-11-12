@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="images/cup.png" type="image/x-icon" />
+
+    <!-- google font "manrope" linnk  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwindcss cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- customize tailwindcss  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- customize your styles  -->
+    <style type="text/tailwindcss">
+      /* @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      } */
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- header section  -->
+    <header class="text-lg md:text-xl">
+      <h1>Welcome to Tea House</h1>
+    </header>
+
+    <!-- main section  -->
+    <main></main>
+
+    <!-- footer section  -->
+    <footer></footer>
+  </body>
+</html>
